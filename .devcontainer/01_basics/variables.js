@@ -7,8 +7,8 @@ const accountCity= "SOLAPUR"
 let Fees = 450000
 //accountEmail= "sagar2@yopmail.com"
 //const accountCity= "PUNE"
-
-console.table({accountId, accountType, accountEmail, accountPassword, accountCity, Fees})
+let org = "Persistent"
+console.table({accountId, accountType, accountEmail, accountPassword, accountCity, Fees, org })
 
 /*
 Const and let should be used to declare variables in JavaScript. 
