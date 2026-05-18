@@ -47,3 +47,32 @@ id2: symbol
 myFun: function
 
 */
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//Stack and Heap Memory------
+
+let myVar = "AmitTiparadi"
+let myvar2 = myVar
+myvar2 = "chai aur code"
+
+console.log(myVar);
+console.log(myvar2);
+
+let userOne = {
+    name: "Amit Test",
+    email: "amit.test@yopmail.com"
+}
+
+let userTwo = {
+    name: "Sagar Test",
+    email: "sagar@yopmail.com"
+}
+
+let userThree = userOne
+
+userThree.email = "amit.tiparadi@yahoo.com"
+console.log(userThree)
+
+console.log(userOne.email)
+console.log(userThree.email)
