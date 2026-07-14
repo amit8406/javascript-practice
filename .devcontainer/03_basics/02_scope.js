@@ -43,11 +43,13 @@ function addone(num){
     
 }
 
-addTwo(10)
+
 
 const addTwo = function(num){
     return num + 2
     
 }
+addTwo(10)
 
+console.log(addTwo(8))
 
